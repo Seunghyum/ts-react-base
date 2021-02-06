@@ -16,6 +16,5 @@ module.exports = merge(baseConfig, {
       silent: true, // hide any errors
       defaults: false, // load '.env.defaults' as the default values if empty.
     }),
-    new HotModuleReplacementPlugin(),
   ],
 })
