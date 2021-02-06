@@ -1,6 +1,5 @@
 const merge = require('webpack-merge')
 const Dotenv = require('dotenv-webpack')
-const { HotModuleReplacementPlugin } = require('webpack')
 const baseConfig = require('./webpack.config.base')
 
 module.exports = merge(baseConfig, {
